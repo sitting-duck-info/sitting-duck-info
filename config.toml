@@ -1,9 +1,14 @@
 # Site settings
-baseurl = "https://example.com/"
-title = "Hugo Story Theme"
+baseurl = "/"
+title = "Sitting Duck Info"
 paginate = 5
 buildFuture = true
 theme = "story"
+
+[[menu.social]]
+  name = "Twitter"
+  title = "fab fa-twitter-square"
+  url = "https://twitter.com/sittingduckinfo/"
 
 [[menu.social]]
   name = "GitHub"
@@ -25,8 +30,13 @@ theme = "story"
   title = "Archives"
   url = "/archives/"
 
+[[menu.main]]
+  name = "About Us"
+  title = "About Us"
+  url = "/about-us/"
+
 [params]
-  author = "Sarah Taylor"
+  author = "Sitting Duck Info"
   classes = []
 
 [outputs]
